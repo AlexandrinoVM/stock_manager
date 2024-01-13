@@ -103,7 +103,7 @@ class osFunctions:
                 you should put your system username where is <username> at path_dir variable
                  
                 """
-                path_dir = 'C:\\Users\\<vxsh>\\Desktop\\estoque\\stock_data\\stock_data.xlsx'
+                path_dir = 'C:\\Users\\<username>\\Desktop\\estoque\\stock_data\\stock_data.xlsx'
                 
                 subprocess.call(path_dir,shell=True)
             else:
