@@ -100,11 +100,11 @@ class osFunctions:
         def open_excel():
             if osFunctions.check_archive(file_name):
                 """
-                you should put your system username where is <username> at
+                you should put your system username where is <username> at path_dir variable
                  
                 """
-
                 path_dir = 'C:\\Users\\<vxsh>\\Desktop\\estoque\\stock_data\\stock_data.xlsx'
+                
                 subprocess.call(path_dir,shell=True)
             else:
                 more_tabString.set("archive not find/exists")
@@ -310,10 +310,10 @@ more_tabString = ctk.StringVar()
 more_tab = ctk.CTkLabel(tab_view.tab("more"),text="download options")
 more_tab.pack(pady=5)
 
-moreDownload_tab = ctk.CTkButton(tab_view.tab("more"),text="download arquive", command=download_func)
+moreDownload_tab = ctk.CTkButton(tab_view.tab("more"),text="download archive", command=download_func)
 moreDownload_tab.pack(pady=5)
 
-moreOpen_tab = ctk.CTkButton(tab_view.tab("more"),text="open arquive" ,command=open_arquive)
+moreOpen_tab = ctk.CTkButton(tab_view.tab("more"),text="open archive" ,command=open_arquive)
 moreOpen_tab.pack(pady=5)
 
 more_errotab = ctk.CTkLabel(tab_view.tab("more"),textvariable=more_tabString)
