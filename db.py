@@ -13,8 +13,8 @@ class banco():
             #this is the name of the database data gonna be conected(preferably not change)
             database = 'estoque',
         )
-   
-    def check(self,cursor):
+    @staticmethod
+    def check(cursor):
 
         #create a table in the database if arlready not exists
         cursor.execute('CREATE TABLE IF NOT EXISTS produtos( id int primary key not null auto_increment, produto varchar(40),preco int,quantidade int);')
