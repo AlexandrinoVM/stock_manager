@@ -147,7 +147,7 @@ window = ctk.CTk()
 window.title("app teste")
 window.geometry("1200x700")
 window.maxsize(width=1500,height=800)
-window.minsize(width=850,height=300)
+window.minsize(width=550,height=300)
 
 #Setting the window width and height
 tab_view = ctk.CTkTabview(window,width=1500,height=800)
