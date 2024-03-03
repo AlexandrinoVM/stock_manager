@@ -33,7 +33,7 @@
 ### parte 1
 <p>execute no terminal o comando</p>
 
-- git clone https://github.com/AlexandrinoVM/stock_manager.git
+- git clone `https://github.com/AlexandrinoVM/stock_manager.git`
 
 ### parte 2
 <p>instalar dependecias<p>
